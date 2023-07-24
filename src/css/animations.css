@@ -1,0 +1,39 @@
+/* Animated Text  */
+
+.typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: typing 3s steps(150);
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+/* Scroll Down animation  */
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

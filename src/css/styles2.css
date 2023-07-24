@@ -1,0 +1,239 @@
+/* Intro  */
+
+.introDiv{
+    height: 100vh;
+    padding: 4rem 8rem 0 10rem;
+    background-color: #212529;
+    color: #fff;
+}
+.introDiv h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 5rem;
+    padding: 4rem 0;
+}
+.introDiv p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+}
+.introDiv li{
+    padding: 1rem 0 0 0;
+}
+
+/* About Div */
+.aboutDiv img{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 2rem 0 4rem 0;
+    height: 36rem;
+    width: 64rem;
+}
+.aboutDiv h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 5rem;
+    padding: 4rem 0 2rem 2rem;
+}
+
+#frontImage{
+    height: 27rem;
+    width: 48rem;
+}
+.aboutDiv img{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 2rem 2rem 4rem 2rem;
+    width: 27rem;
+    height: 48rem;
+}
+
+
+.sourceSection {
+    height: 100vh;
+    padding: 4rem 2rem 0 2rem;
+    background-color: #212529;
+    display: flex;
+    color: #fff;
+}
+
+.sourceSection h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3rem;
+    padding: 2rem 0 2rem 0
+}
+.sourceSection h2 {
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem 0 2rem 0
+}
+.sourceSection h4 {
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem 0 2rem 0
+}
+.sourceSectionDiv {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 3rem 1rem;
+    margin: 4rem 2rem;
+}
+
+.sourceSectionDiv:hover  {
+    background-color: #2b3035;
+}
+
+
+
+@media (max-width:1520px) {
+    /* Introduction  */
+    .introh1 {
+        font-size: 4rem;
+    }
+    .introDiv{
+        padding: 4rem 4rem 0 4rem;
+    }
+
+}
+
+
+
+
+@media (max-width:1310px){
+    
+}
+
+
+@media (max-width:1080px) {
+    /* Introduction  */
+    .introDiv h1 {
+        font-size: 4rem;
+    }
+    .introDiv p {
+        font-size: 2rem;
+    }
+
+    /* About Div */
+    .aboutDiv img{
+        /* border: 2px solid black;
+        border-radius: 25px;
+        margin: 2rem 0 4rem 0; */
+        height: 27rem;
+        width: 48rem;
+    }
+}
+
+
+@media (max-width:990px) {
+    /* Introduction  */
+    .introDiv h1 {
+        font-size: 4rem;
+    }
+    .introDiv{
+        padding: 4rem 6rem 0 6rem;
+    }
+    .introDiv p {
+        font-size: 1.8rem;
+    }
+
+    /* About Div */
+    .aboutDiv img{
+        /* border: 2px solid black;
+        border-radius: 25px;
+        margin: 2rem 0 4rem 0; */
+        height: 18rem;
+        width: 32rem;
+    }
+
+}
+
+
+@media (max-width:750px) {
+    .introDiv h1 {
+        font-size: 4rem;
+    }
+    .introDiv{
+        padding: 4rem 3rem 0 3rem;
+    }
+    .introDiv p {
+        font-size: 1.6rem;
+    }
+
+     /* About Div */
+     .aboutDiv img{
+        /* border: 2px solid black;
+        border-radius: 25px;
+        margin: 2rem 0 4rem 0; */
+        height: 15.75rem;
+        width: 28rem;
+    }
+
+    /* Source Section  */
+    .sourceSection {
+        height: auto;
+        display:block;
+        padding:3rem 1rem 3rem 1rem;
+    }
+    
+    .sourceSection h1{
+        font-size: 2.5rem;
+        padding: 2rem 0 2rem 0
+    }
+    .sourceSection h2 {
+        padding: 2rem 0 2rem 0
+    }
+    .sourceSectionDiv {
+        width: 90%;
+        padding: 2rem 1rem;
+        margin: 3rem 2rem;
+    }
+    
+}
+
+
+@media (max-width:560px){
+    /* Source Section  */
+    .sourceSection {
+        padding:3rem 1rem 3rem 1rem;
+    }
+    
+    .sourceSection h1{
+        font-size: 2.5rem;
+        padding: 2rem 0 2rem 0
+    }
+    .sourceSection h2 {
+        padding: 2rem 0 2rem 0
+    }
+    .sourceSectionDiv {
+        width: 90%;
+        padding: 2rem 1rem;
+        margin: 3rem 2rem;
+    }
+
+}
+
+@media (max-width:470px){
+    /* About Div */
+    .aboutDiv img{
+       /* border: 2px solid black;
+       border-radius: 25px;
+       margin: 2rem 0 4rem 0; */
+       height: 13.5rem;
+       width: 24rem;
+    }
+
+
+    
+}
+
+@media (max-width:420px) {
+    .introDiv{
+        padding: 4rem 2rem 0 2rem;
+    }
+    .introDiv p {
+        font-size: 1.4rem;
+    }
+    
+
+    
+    
+}
+
+
