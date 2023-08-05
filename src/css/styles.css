@@ -5,7 +5,7 @@
     background-color: #212529;
 }
 
-.introh1 {
+#introh1 {
     font-family: 'EB Garamond', serif;
     color: #fff;
     font-size: 5rem;
@@ -14,7 +14,6 @@
 
 
 /* About */
-
 .aboutDivBG{
     background-color: #18122B;
     padding: 4rem;
@@ -42,7 +41,6 @@
     border-radius: 50%;
     margin: 10px;
 }
-
 
 
 
@@ -115,10 +113,26 @@
 /* Contact Me  */
 .contactMeDiv {
     background-color: #fff;
-    /* color: #fff; */
+    font-family: 'EB Garamond', serif;
+    color: #000;
+    margin: 2rem auto;
+    padding: 4rem 3rem;
+}
+
+.contactMeDiv h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.8rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.formDiv {
+    margin: auto;
+    /* padding-left: 6rem; */
 }
 
 
+
+/* Footer  */
 .footerDivBg{
     background-color: #212529;
     color: #fff;
@@ -134,14 +148,9 @@
 
 
 
-
-
-
-
-
 @media (max-width:1520px) {
     /* Introduction  */
-    .introh1 {
+    #introh1 {
         font-size: 60px;
     }
     .introDivBG{
@@ -217,7 +226,7 @@
 
 @media (max-width:1080px) {
     /* Introduction  */
-    .introh1 {
+    #introh1 {
         font-size: 40px;
     }
     
@@ -246,7 +255,7 @@
 
 @media (max-width:990px) {
     /* Introduction  */
-    .introh1 {
+    #introh1 {
         font-size: 30px;
     }
     .introDivBG{
@@ -309,8 +318,8 @@
 
 
 @media (max-width:750px) {
-    .introh1 {
-        font-size: 18px;
+    #introh1 {
+        font-size: 1.60rem;
     }
     .introDivBG{
         padding: 18rem 3rem 0 3rem;
@@ -391,13 +400,27 @@
     }
 }
 
+@media (max-width:560px){
+    #introh1 {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width:400px) {
+    #introh1 {
+        font-size: 1.1rem;
+    }
+}
 
 
 @media (max-width:390px) {
     .introDivBG{
         padding: 18rem 2rem 0 2rem;
     }
-    
+    .aboutDivBG {
+        padding-right: 0;
+        padding-left: 0;
 }
 
-
+}

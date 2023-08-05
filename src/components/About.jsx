@@ -13,6 +13,7 @@ function About() {
                     <p>
                         Barasat, Kolkata-700124, West Bengal
                     </p>
+                    <p>shouvik9876@gmail.com | +91 9674350711</p>
                     </td>
                 </tr>
             </table>

@@ -4,6 +4,7 @@ import Intro from './Introduction';
 import About from './About';
 import ProfileLinks from './ProfileLinks';
 import Projects from './Projects';
+import ContactMe from './ContactMe';
 import Footer from './Footer';
 
 function LandingPage() {
@@ -14,6 +15,7 @@ function LandingPage() {
       <About/>
       <ProfileLinks/>
       <Projects/>
+      <ContactMe/>
       <Footer/>
     </div>
   );

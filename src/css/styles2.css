@@ -1,8 +1,9 @@
 /* Intro  */
 
 .introDiv{
-    height: 100vh;
-    padding: 4rem 8rem 0 10rem;
+    /* height: 100vh; */
+    margin: 0 0 2rem 0;
+    padding: 4rem 8rem 4rem 10rem;
     background-color: #212529;
     color: #fff;
 }
@@ -18,8 +19,12 @@
 .introDiv li{
     padding: 1rem 0 0 0;
 }
+#waintro {
+    padding-bottom: 10rem;
+}
 
 /* About Div */
+
 .aboutDiv img{
     border: 2px solid black;
     border-radius: 25px;
@@ -33,10 +38,6 @@
     padding: 4rem 0 2rem 2rem;
 }
 
-#frontImage{
-    height: 27rem;
-    width: 48rem;
-}
 .aboutDiv img{
     border: 2px solid black;
     border-radius: 25px;
@@ -45,6 +46,10 @@
     height: 48rem;
 }
 
+#frontImage{
+    height: 27rem;
+    width: 48rem;
+}
 
 .sourceSection {
     height: 100vh;
@@ -57,15 +62,15 @@
 .sourceSection h1{
     font-family: 'Source Code Pro', monospace;
     font-size: 3rem;
-    padding: 2rem 0 2rem 0
+    padding: 2rem 0 2rem 0;
 }
 .sourceSection h2 {
     font-family: 'Raleway', sans-serif;
-    padding: 2rem 0 2rem 0
+    padding: 2rem 0 2rem 0;
 }
 .sourceSection h4 {
     font-family: 'Raleway', sans-serif;
-    padding: 2rem 0 2rem 0
+    padding: 2rem 0 2rem 0;
 }
 .sourceSectionDiv {
     border: 1px solid #fff;
@@ -91,6 +96,15 @@
         padding: 4rem 4rem 0 4rem;
     }
 
+
+    .aboutDiv img{
+        border: 2px solid black;
+        border-radius: 25px;
+        margin: 2rem 2rem 4rem 2rem;
+        width: 27rem;
+        height: 48rem;
+    }
+
 }
 
 
@@ -112,9 +126,11 @@
 
     /* About Div */
     .aboutDiv img{
-        /* border: 2px solid black;
-        border-radius: 25px;
-        margin: 2rem 0 4rem 0; */
+       
+        width: 27rem;
+        height: 48rem;
+    }
+    #frontImage{
         height: 27rem;
         width: 48rem;
     }
@@ -138,6 +154,10 @@
         /* border: 2px solid black;
         border-radius: 25px;
         margin: 2rem 0 4rem 0; */
+        width: 27rem;
+        height: 48rem;
+    }
+    #frontImage{
         height: 18rem;
         width: 32rem;
     }
@@ -158,12 +178,14 @@
 
      /* About Div */
      .aboutDiv img{
-        /* border: 2px solid black;
-        border-radius: 25px;
-        margin: 2rem 0 4rem 0; */
-        height: 15.75rem;
-        width: 28rem;
+        width: 27rem;
+        height: 48rem;
     }
+    #frontImage{
+        height: 18rem;
+        width: 32rem;
+    }
+    
 
     /* Source Section  */
     .sourceSection {
@@ -184,14 +206,15 @@
         padding: 2rem 1rem;
         margin: 3rem 2rem;
     }
+
     
 }
 
 
-@media (max-width:560px){
+@media (max-width:580px){
     /* Source Section  */
     .sourceSection {
-        padding:3rem 1rem 3rem 1rem;
+        padding:3rem 1rem 3rem 0rem;
     }
     
     .sourceSection h1{
@@ -203,22 +226,29 @@
     }
     .sourceSectionDiv {
         width: 90%;
-        padding: 2rem 1rem;
+        padding: 2rem 0.5rem;
         margin: 3rem 2rem;
     }
-
+    .aboutDiv img{
+        margin: 2rem 2rem 1rem 1rem;
+        width: 20rem;
+        height: 38rem;
+    }
+    #frontImage{
+        height: 16rem;
+        width: 26rem;
+    }
 }
 
 @media (max-width:470px){
     /* About Div */
     .aboutDiv img{
-       /* border: 2px solid black;
-       border-radius: 25px;
-       margin: 2rem 0 4rem 0; */
-       height: 13.5rem;
-       width: 24rem;
+       margin: 2rem 0 2rem 0.5rem;
     }
-
+    #frontImage{
+        height: 14rem;
+        width: 20rem;
+    }
 
     
 }
@@ -230,10 +260,17 @@
     .introDiv p {
         font-size: 1.4rem;
     }
+    #frontImage{
+        height: 14rem;
+        width: 20rem;
+    }
     
+    .aboutDiv h1 {
+        font-size: 3rem;
+        /* padding: 4rem 0; */
+    }
 
-    
-    
 }
+
 
 

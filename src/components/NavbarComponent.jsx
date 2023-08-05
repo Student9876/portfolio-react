@@ -12,13 +12,13 @@ function NavbarComponent() {
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav className='justify-content-end' style={{width:'100%'}}>
                         <NavLink href='/'>Home</NavLink>
-                        <NavLink href='#about'>About</NavLink>
-                        <NavLink href='#contactme'>Contact Me</NavLink>
+                        <NavLink href='/#about'>About</NavLink>
+                        <NavLink href='/#contactme'>Contact Me</NavLink>
 
                         <NavDropdown bg='dark' variant='dark' title='Project' id='basic-nav-dropdown'>
                             <Dropdown.Item href='/weatherapp'>Weather-App</Dropdown.Item>
-                            <Dropdown.Item href='#action-1'>Keeper-App</Dropdown.Item>
-                            <Dropdown.Item href='#action-1'>To-do List-App</Dropdown.Item>
+                            <Dropdown.Item href='/imagebot'>Image Bot</Dropdown.Item>
+                            <Dropdown.Item href='/keeperapp'>Keeper App</Dropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

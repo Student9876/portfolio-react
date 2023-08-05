@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import weatherProjectImage from '../images/project_images/weather-app-front.png';
 import imageBotFront from '../images/project_images/image-bot-front.png';
+import keeperappfront from '../images/project_images/keeper-app-front.png'
 
 function Projects() {
     const navigate = useNavigate();
@@ -18,7 +19,7 @@ function Projects() {
                             <img src={weatherProjectImage} className="projectsImg" alt="lol"></img>
                             <div>
                                 <p className="projectTitle">Weather App</p>
-                                <p className="projectDes">This is a <i>Weather App</i> built using <em>ExpressJs</em>. An API from openweathermap.com is being used here</p>
+                                <p className="projectDes">This is a <i>Weather App</i> built using <em>NodeJs</em> and <em>ExpressJs</em>. An API from openweathermap.com is being used here</p>
                             </div>
                         </div>
                     </Col>
@@ -29,7 +30,18 @@ function Projects() {
                             <img src={imageBotFront} className="projectsImg" alt="lol"></img>
                             <div>
                                 <p className="projectTitle">Image-Bot Telegram</p>
-                                <p className="projectDes">This is a <i>Telegram bot</i> built using <em>NodeJs</em> for backend.</p>
+                                <p className="projectDes">This is a <i>Telegram bot</i> built using <em>NodeJs</em> for back-end.</p>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row >
+                    <Col>
+                        <div className="projectRows reveal fade-bottom" onClick={()=>{navigate('/keeperapp')}}>
+                            <img src={keeperappfront} className="projectsImg" alt="lol"></img>
+                            <div>
+                                <p className="projectTitle">Keeper App React</p>
+                                <p className="projectDes">This is a <i>Note Keeper App</i> built using <em>ReactJs</em> in front-end and NodeJs as back-end.</p>
                             </div>
                         </div>
                     </Col>

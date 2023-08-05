@@ -31,19 +31,19 @@ function WeatherAppProject() {
             <div className="aboutDiv">
                 <h1>Preview</h1>
                 <center>
-                    <img className="reveal fade-bottom" src={weatherImageSource} alt="WeatherImage" />
+                    <img id="frontImage" className="reveal fade-bottom" src={weatherImageSource} alt="WeatherImage" />
                     <br />
-                    <img className="reveal fade-bottom" src={weatherImageResult} alt="WeatherImage" />
+                    <img id="frontImage" className="reveal fade-bottom" src={weatherImageResult} alt="WeatherImage" />
                 </center>
             </div>
 
             <div className="sourceSection">
-                <div className="sourceSectionDiv">
+                <div className="sourceSectionDiv reveal fade-bottom">
                     <h1>Wanna try the app?</h1>
                     <h2> Click the below button to visit the Website</h2>
                     <button className="btn btn-primary btn-light" onClick={() => { window.open("https://weatherapp.student9876.repl.co/", '_blank') }}>Weather App</button>
                 </div>
-                <div className="sourceSectionDiv">
+                <div className="sourceSectionDiv reveal fade-bottom">
                     <h1>Source Code</h1>
                     <h2>Click the below button to visit <em>GitHub</em></h2>
                     <button className="btn btn-primary btn-light" onClick={() => { window.open("https://github.com/Student9876/weather_app_react.git", '_blank') }}>GitHub</button>

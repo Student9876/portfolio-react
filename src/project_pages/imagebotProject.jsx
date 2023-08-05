@@ -43,16 +43,16 @@ function ImageBotProject() {
             </div>
 
             <div className="sourceSection">
-                <div className="sourceSectionDiv">
+                <div className="sourceSectionDiv reveal fade-bottom">
                     <h1>Wanna try the bot?</h1>
                     <h2> Click the below button to visit the Website</h2>
                     <button className="btn btn-primary btn-light" onClick={() => { window.open("http://t.me/imagebot99_bot", '_blank') }}>Image Bot</button>
-                    <h4>If the link doesn't work then simply type this name <em style={{fontFamily:"monospace"}}>@imagebot99_bot</em> in telegram search box.</h4>
+                    <h4>If the link doesn't work then simply type this name <em style={{fontFamily:"monospace"}}>@imagebot99_bot</em> in telegram search box. Or use a VPN to open the link to get redirected to the bot</h4>
                 </div>
-                <div className="sourceSectionDiv">
+                <div className="sourceSectionDiv reveal fade-bottom">
                     <h1>Source Code</h1>
                     <h2>Click the below button to visit <em>GitHub</em></h2>
-                    <button className="btn btn-primary btn-light" onClick={() => { window.open("https://github.com/Student9876/weather_app_react.git", '_blank') }}>GitHub</button>
+                    <button className="btn btn-primary btn-light" onClick={() => { window.open("https://github.com/Student9876/imagebot", '_blank') }}>GitHub</button>
                 </div>
             </div>
             <Footer />
