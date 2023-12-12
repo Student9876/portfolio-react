@@ -116,7 +116,7 @@
     font-family: 'EB Garamond', serif;
     color: #000;
     margin: 2rem auto;
-    padding: 4rem 3rem;
+    padding: 0 3rem;
 }
 
 .contactMeDiv h1 {
@@ -414,13 +414,12 @@
 }
 
 
+
 @media (max-width:390px) {
     .introDivBG{
         padding: 18rem 2rem 0 2rem;
     }
-    .aboutDivBG {
-        padding-right: 0;
-        padding-left: 0;
+    
 }
 
-}
+

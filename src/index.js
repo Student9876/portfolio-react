@@ -15,7 +15,7 @@ import Root from './components/root';
 import WeatherProject from './project_pages/weatherProject';
 import ImageBotProject from './project_pages/imagebotProject';
 import KeeperAppProject from './project_pages/keeperAppProject';
-
+import EstateProject from './project_pages/estateProject';
 
 
 // react-scripts --openssl-legacy-provider start
@@ -31,11 +31,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/imagebot",
-    element: <ImageBotProject/>,
+    element: <ImageBotProject />,
   },
   {
     path: "/keeperapp",
-    element: <KeeperAppProject/>,
+    element: <KeeperAppProject />,
+  },
+  {
+    path: "/estateapp",
+    element: <EstateProject />
   },
 ]);
 
