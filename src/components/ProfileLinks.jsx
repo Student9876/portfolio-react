@@ -14,7 +14,7 @@ function ProfileLinks(){
                 <center>
                 <h1 id="profileLinksHeading">Let's Connect</h1>
                     <Row id="linkItems" className="reveal fade-bottom">
-                        <Col><a href="https://www.codechef.com/users/en_zeon" target="_blank" rel="noopener noreferrer"><img className="profilePNG" src={codechefImg} alt="Codechef Profile Link"/></a><figcaption>CodeChef</figcaption></Col>
+                        <Col><a href="https://www.codechef.com/users/shouvik9876" target="_blank" rel="noopener noreferrer"><img className="profilePNG" src={codechefImg} alt="Codechef Profile Link"/></a><figcaption>CodeChef</figcaption></Col>
                         <Col><a href="https://www.linkedin.com/in/shouvik-sutar/" target="_blank" rel="noopener noreferrer"><img className="profilePNG" src={linkedInImg} alt="LinkedIn Profile Link"/></a><figcaption>LinkedIn</figcaption></Col>
                         <Col><a href="https://github.com/Student9876" target="_blank" rel="noopener noreferrer"><img className="profilePNG" src={gitHubImg} alt="GitHub Profile Link"/></a><figcaption>GitHub</figcaption></Col>
                         <Col><a href="https://www.instagram.com/en_zeon/" target="_blank" rel="noopener noreferrer"><img className="profilePNG" src={instagramImg} alt="Instagram Profile Link"/></a><figcaption>Instagram</figcaption></Col>
