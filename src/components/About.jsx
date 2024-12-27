@@ -21,7 +21,7 @@ function About() {
                 <tr>
                     <td><h1 className="abouth1">Studying at IIIT Bhopal</h1>
                     <p>
-                        Computer Science and Engineering, B.Tech 2nd Year
+                        Computer Science and Engineering, B.Tech 3rd Year
                     </p>
                     </td>
                     <td><img className="profileImage" src={myCollege} alt="ProfileImage" /></td>
